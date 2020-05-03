@@ -6,7 +6,7 @@ import argparse
 parse = argparse.ArgumentParser(
                     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-parse.add_argument('--file_path', type=str, default="output/",
+parse.add_argument('--file_path', type=str, default="data/output/",
                     help='Absolute File path for the images to be saved to')
 
 parse.add_argument('--num_of_files', type=int, default=1024,
