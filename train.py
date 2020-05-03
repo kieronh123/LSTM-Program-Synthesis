@@ -48,7 +48,7 @@ parse.add_argument('--batch_size', type=int, default=128,
 parse.add_argument('--dropout_rate', type=int, default=0.2,
                     help='Dropout value after each layer.')
 
-parse.add_argument('--epochs', type=int, default=12,
+parse.add_argument('--epochs', type=int, default=3,
                     help='number of epochs.')
 
 parse.add_argument('--learning_rate', type=float, default=0.01,
@@ -57,7 +57,7 @@ parse.add_argument('--learning_rate', type=float, default=0.01,
 parse.add_argument('--decay_rate', type=float, default=0.00001,
                     help='decay rate')
 
-parse.add_argument('--optimizer', type=str, default="adagrad",
+parse.add_argument('--optimizer', type=str, default="rms",
                     help='Choose optimizer: rms, adagrad or sgd')
 
 current_date = str(datetime.now()).split(' ')[0]
