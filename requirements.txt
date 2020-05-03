@@ -1,5 +1,5 @@
 numpy==1.18.1
 wheel==0.34.2
 keras==2.3.1
-tensorflow==1.15
+tensorflow==1.15.2
 autopy==3.0.1
