@@ -109,7 +109,6 @@ print(model.to_json())
 
 #Pass model to the output_shape_code function
 output_string = output_shape_code(model, 40)
-print(output_string)
 #remove any erroneous lines above the first 'import' in the output string
 output_string = output_string[output_string.find('import'):]
 #trim the string on 16 new line characters
